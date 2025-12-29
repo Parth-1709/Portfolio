@@ -30,7 +30,7 @@ function Contact() {
     } catch (error) {
       console.log("Error sending email", error);
     } finally {
-      setloading(false); // ✅ ALWAYS runs at the right time
+      setloading(false); 
     }
     
   }
